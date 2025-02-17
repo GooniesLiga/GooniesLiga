@@ -1,0 +1,407 @@
+:root{
+    --primary-color: #57005a;
+    --secundary-color: #ffe14c;
+    --background-color: #efece7;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+
+main{
+    background-color: white;
+    color: black;
+}
+
+li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 25px; 
+    font-family: "Montserrat";
+}
+
+h1{
+    font-size: 40px;
+    color: var(--primary-color);
+    font-family: "Grenze Gotisch";
+}
+
+h3{
+    font-size: 32px; 
+    font-style: italic;
+    font-weight: 500;
+    font-family: "Grenze Gotisch";
+}
+
+h4{
+    font-size: 20px; 
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+p{
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+
+h6{
+    font-size: 18px; 
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+
+strong{
+    color: var(--primary-color);
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+.home__img{
+    width: 256px;
+    height: 256px;
+}
+
+.home__a{
+    text-decoration: none;
+    padding: 10px; 
+    color: var(--primary-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.home__a:hover{
+    transform: scale(1.05);
+}
+
+.home__text{
+    max-width: 900px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.participants{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.participants__left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 30px; 
+    padding: 50px; 
+}
+
+.participant__item{
+    background-color: white;
+    border: none;
+    height: 120px;
+    width: 120px; 
+    cursor: pointer; 
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.participant__img{
+    height: 60px;
+    height: 60px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.participant__item.active .participant__img {
+    filter: grayscale(0%);
+}
+
+.participant__name{
+    font-size: 18px; 
+}
+
+.participants__right{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.participant__icon{
+    height: 160px;
+    width: 160px;
+    background-color: white;
+}
+
+.participant__title{
+    font-size: 22px;
+}
+
+.participant__subtitle{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.participant__stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+.participant__medals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+    margin-top: 20px;
+    padding: 30px 0px;
+}
+
+.participant__medal{
+    width: 50px;
+    height: 50px;
+}
+
+.rating{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.rating__table{
+    height: 600px;
+    width: 80%;
+    text-align: center;
+}
+
+.rating__table th{
+    width: 12.5%;
+    height: 30px;
+}
+
+.rating__table td{
+    height: 60px;
+}
+
+.table__img{
+    height: 80%;
+}
+
+.stats__number{
+    font-size: 30px;
+    color: yellow;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .rating__table th:nth-child(3),
+    .rating__table td:nth-child(3),
+    .rating__table th:nth-child(4),
+    .rating__table td:nth-child(4),
+    .rating__table th:nth-child(5),
+    .rating__table td:nth-child(5),
+    .rating__table th:nth-child(6),
+    .rating__table td:nth-child(6),
+    .rating__table th:nth-child(7),
+    .rating__table td:nth-child(7) {
+        display: none;
+    }
+}
+
+
+
+.points{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.points1, .points2, .points3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.points1__img{
+    height: 170px;
+    width: 300px;
+}
+
+.points1{
+    gap: 20px; 
+    padding: 50px 20px; 
+}
+
+.points1__right{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.poins1__item{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 10px; 
+}
+
+.poits1__subtitle{
+    text-align: center;
+}
+
+.points1__text{
+    text-align: center;
+}
+
+
+.points2{
+    padding: 50px 20px;
+}
+
+.points2__right{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; 
+    flex-wrap: wrap;
+}
+
+.points2__img{
+    width: 502px;
+    height: 202px;
+}
+
+@media (max-width: 650px) {
+    .points2__img{
+        width: 251px;
+        height: 101px;
+    }
+}
+
+.points3{
+    padding: 50px; 
+}
+
+.points3__items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.points3__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 270px;
+    border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+    .points3__item{
+        width: 80%;
+    }
+}
+
+.points3__title{
+    text-align: center;
+    margin: 0;
+}
+
+.poits3__list{
+    text-align: center;
+}
+
+.points3__item2{
+    border: 1px solid yellow;
+
+}
+
+.points3__item1{
+    border: 1px solid rgb(99, 105, 96);
+    
+}
+
+.points3__item3{
+    border: 1px solid rgb(169, 153, 100);
+}
+
+.table__name{
+    font-size: 18px;
+    font-family:"Grenze Gotisch";
+}
+
+.pints3__icon{
+    font-size: 44px;
+    margin-top: 10px;
+}
+
+.points2__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -20px;
+    padding: 20px;
+}
+
+.poits2__subtitle{
+    padding: 20px;
+    text-align: center;
+}
+
+.poits3__subtitle{
+    padding: 20px;
+    text-align: center;
+}
