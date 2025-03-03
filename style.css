@@ -488,7 +488,7 @@ strong{
 }
 
 @media (max-width: 800px){
-    points2__list{
+    .points2__list{
         text-align: center; 
     }
 }
