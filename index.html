@@ -18,6 +18,7 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="img/ligero (1).png">
 </head>
 
 <body>
@@ -28,8 +29,8 @@
       <p class="home__text">
         🔥 Bienvenidos a la LIGA GOONIE 🔥
         <br>
-        Competirás contra todos creando momentos inolvidables y épicos, pero sobretodo, competirás contra 
-        ti mismo.. Solo uno podrá alzarse como el <strong>  Rey Goonie </strong>
+        Competirás contra todos creando momentos inolvidables y épicos, pero sobretodo, competirás contra
+        ti mismo.. Solo uno podrá alzarse como el <strong> Rey Goonie </strong>
         <br>
         ¿Tienes lo necesario para conquistar la gloria? 🏆🔥
       </p>
@@ -64,11 +65,6 @@
         </button>
 
         <button class="participant__item">
-          <img src="img/iconos/mareado.png" alt="" class="participant__img" />
-          <p class="participant__name"> Edu </p>
-        </button>
-
-        <button class="participant__item">
           <img src="img/iconos/mujer.png" alt="" class="participant__img" />
           <p class="participant__name"> Freire </p>
         </button>
@@ -89,42 +85,71 @@
         </button>
       </div>
 
-      <div class="participants__right">
-        <img src="img/ligero (1).png" alt="" class="participant__icon" id="participant__icon" />
+      <div class="participants__stats">
+        <div class="participants__right">
+          <img src="img/ligero (1).png" alt="" class="participant__icon" id="participant__icon" />
 
-        <h3 class="participant__title" id="participant__title"></h3>
+          <h3 class="participant__title" id="participant__title"></h3>
 
-        <p class="participant__subtitle" id="participant__subtitle">
+          <p class="participant__subtitle" id="participant__subtitle">
 
-        </p>
+          </p>
 
-        <div class="participant__stats">
-          <div class="stats__item">
-            <h4 class="stats__title">Medallas</h4>
-            <p class="stats__number"></p>
+          <div class="participant__stats">
+            <div class="stats__item">
+              <h4 class="stats__title">Medallas</h4>
+              <p class="stats__number"></p>
+            </div>
+            <div class="stats__item">
+              <h4 class="stats__title">Premios</h4>
+              <p class="stats__number"></p>
+            </div>
+            <div class="stats__item">
+              <h4 class="stats__title">Objetivos S</h4>
+              <p class="stats__number"></p>
+            </div>
+            <div class="stats__item">
+              <h4 class="stats__title">Objetivos M</h4>
+              <p class="stats__number"></p>
+            </div>
+            <div class="stats__item">
+              <h4 class="stats__title">Objetivo A</h4>
+              <p class="stats__number"></p>
+            </div>
           </div>
-          <div class="stats__item">
-            <h4 class="stats__title">Premios</h4>
-            <p class="stats__number"></p>
-          </div>
-          <div class="stats__item">
-            <h4 class="stats__title">Objetivos S</h4>
-            <p class="stats__number"></p>
-          </div>
-          <div class="stats__item">
-            <h4 class="stats__title">Objetivos M</h4>
-            <p class="stats__number"></p>
-          </div>
-          <div class="stats__item">
-            <h4 class="stats__title">Objetivo A</h4>
-            <p class="stats__number"></p>
+
+          <div class="participant__medals">
           </div>
         </div>
 
-        <div class="participant__medals">
+        <div class="participants__goals">
+          <div class="goals__item">
+            <h4 class="goals__title">Reto de temporada</h4>
+            <p class="goals__text">
+
+            </p>
+          </div>
+
+          <div class="goals__item">
+            <h4 class="goals__title">Reto del mes actual</h4>
+            <p class="goals__text">
+              
+            </p>
+          </div>
+
+          <div class="goals__item goals__itemLevel">
+            <h4 class="goals__title">Nivel de evolución</h4>
+            <p class="goals__level">Nivel 1</p>
+            <div class="goals__progress-container">
+                <div class="goals__progress"></div>
+                <span class="goals__progress-text">33 pts para Nivel 2</span>
+            </div>
+        </div>
         </div>
       </div>
     </section>
+
+
 
     <section class="rating">
       <table class="rating__table" id="clasificacion">
@@ -289,7 +314,7 @@
             </li>
             <li><strong> Goonie Musico: </strong>has grabado un tema o pieza musical</li>
             <li>
-              <strong> Goonie Payaso:  </strong>has roto la barrera de la vergüenza en una
+              <strong> Goonie Payaso: </strong>has roto la barrera de la vergüenza en una
               situación
             </li>
             <li><strong> Goonie Gamer: </strong>has sido el goat en un reto de videojuegos</li>
