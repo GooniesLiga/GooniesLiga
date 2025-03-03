@@ -394,11 +394,6 @@ strong{
     text-align: center;
 }
 
-
-.points2{
-    padding: 50px 20px;
-}
-
 .points2__right{
     display: flex;
     flex-direction: row;
