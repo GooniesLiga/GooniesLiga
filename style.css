@@ -359,7 +359,6 @@ strong{
 
 .points1{
     gap: 20px; 
-    padding: 50px 20px; 
 }
 
 .points1__right{
@@ -379,6 +378,13 @@ strong{
     justify-content: start;
     gap: 10px; 
 }
+
+@media (max-width: 600px){
+    .poins1__item{
+    width: 90%;
+    }
+}
+    
 
 .poits1__subtitle{
     text-align: center;
@@ -486,9 +492,19 @@ strong{
     padding: 20px;
 }
 
+@media (max-width: 800px){
+    points2__list{
+        text-align: center; 
+    }
+}
+
 .poits2__subtitle{
     padding: 20px;
     text-align: center;
+}
+
+.home__subtitle{
+    text-align: center
 }
 
 .poits3__subtitle{
