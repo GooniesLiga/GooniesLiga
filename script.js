@@ -1,9 +1,10 @@
+
 const participants = [
     {
         name: "Alberto",
         subtitle: "El terror de las abuelas",
         stats: { medallas: 0, premios: 0, semanales: 0, mensuales: 0, anuales: 0 },
-        icon: "img/iconos/anciana.png",
+        icon: "iconos/Famelico.jpeg",
         medals: ["img/Medalla1B.png", "img/Medalla2B.png", "img/Medalla3B.png", "img/Medalla4B.png", "img/Medalla5B.png", "img/Medalla6B.png", "img/Medalla7B.png"],
         goal__month: "Volver a programar 💻",
         goal__year: "Aplicación web con abejorro 💻",
@@ -13,7 +14,7 @@ const participants = [
         name: "Arturitou",
         subtitle: "Chiquitito, el dictador",
         stats: { medallas: 0, premios: 0, semanales: 0, mensuales: 0, anuales: 0 },
-        icon: "img/iconos/ancianos.png",
+        icon: "iconos/Arturo 1.jpeg",
         medals: ["img/Medalla1B.png", "img/Medalla2B.png", "img/Medalla3B.png", "img/Medalla4B.png", "img/Medalla5B.png", "img/Medalla6B.png", "img/Medalla7B.png"],
         goal__month: "15 días de deporte en Marzo 💪",
         goal__year: "3 hábitos nuevos para una vida mejor 💪📖",
@@ -23,7 +24,7 @@ const participants = [
         name: "Azkona",
         subtitle: "Tom Tucker",
         stats: { medallas: 0, premios: 0, semanales: 0, mensuales: 0, anuales: 0 },
-        icon:  "img/iconos/clasificacion.png",
+        icon:  "iconos/Azko 1.jpeg",
         medals: ["img/Medalla1B.png", "img/Medalla2B.png", "img/Medalla3B.png", "img/Medalla4B.png", "img/Medalla5B.png", "img/Medalla6B.png", "img/Medalla7B.png"],
         goal__month: "Hábito de leer. Mínimo 1 libro en el mes de marzo 📖",
         goal__year: "Prime físico (teniendo en cuent la operación de hombro) y nuevas habilidades culinarias 💪🧑‍🍳 ",
@@ -33,7 +34,7 @@ const participants = [
         name: "DP",
         subtitle: "El cangrejo con las patas pas pas",
         stats: { medallas: 0, premios: 0, semanales: 0, mensuales: 0, anuales: 0 },
-        icon: "img/iconos/enfermo.png",
+        icon: "iconos/Guille 1.jpeg",
         medals: ["img/Medalla1B.png", "img/Medalla2B.png", "img/Medalla3B.png", "img/Medalla4B.png", "img/Medalla5B.png", "img/Medalla6B.png", "img/Medalla7B.png"],
         goal__month: "15 días de deporte en Marzo 💪",
         goal__year: "Prime físico y aprender inglés 💪🧑‍🏫",
@@ -43,7 +44,7 @@ const participants = [
         name: "Dean",
         subtitle: "Mi madre es tu madre",
         stats: { medallas: 0, premios: 0, semanales: 0, mensuales: 0, anuales: 0 },
-        icon:  "img/iconos/hombre (3).png",
+        icon:  "iconos/Dean 1.jpeg",
         medals: ["img/Medalla1B.png", "img/Medalla2B.png", "img/Medalla3B.png", "img/Medalla4B.png", "img/Medalla5B.png", "img/Medalla6B.png", "img/Medalla7B.png"],
         goal__month: "Maqueta de 6 temas 🎶",
         goal__year: "Aplicación web 💻",
@@ -53,7 +54,7 @@ const participants = [
         name: "Freire",
         subtitle: "El intrepido productor",
         stats: { medallas: 0, premios: 0, semanales: 0, mensuales: 0, anuales: 0 },
-        icon:  "img/iconos/mujer.png",
+        icon:  "iconos/Frei 1 .jpeg",
         medals: ["img/Medalla1B.png", "img/Medalla2B.png", "img/Medalla3B.png", "img/Medalla4B.png", "img/Medalla5B.png", "img/Medalla6B.png", "img/Medalla7B.png"],
         goal__month: "Hábito de leer. Mínimo 2 libros en el mes 📖",
         goal__year: "Prime físico 💪",
@@ -63,7 +64,7 @@ const participants = [
         name: "Maldo",
         subtitle: "Huele a coño, tiene pelos",
         stats: { medallas: 0, premios: 0, semanales: 0, mensuales: 0, anuales: 0 },
-        icon:  "img/iconos/personas-mayores.png",
+        icon:  "iconos/Maldo 1.jpeg",
         medals: ["img/Medalla1B.png", "img/Medalla2B.png", "img/Medalla3B.png", "img/Medalla4B.png", "img/Medalla5B.png", "img/Medalla6B.png", "img/Medalla7B.png"],
         goal__month: "15 días de deporte en marzo 💪",
         goal__year: "Encontrar trabajo 🧑‍🏫",
@@ -73,7 +74,7 @@ const participants = [
         name: "Marin",
         subtitle: "Aventurero intrépido",
         stats: { medallas: 0, premios: 0, semanales: 0, mensuales: 0, anuales: 0 },
-        icon:  "img/iconos/servicio-al-cliente.png",
+        icon:  "iconos/Marin 1.jpeg",
         medals: ["img/Medalla1B.png", "img/Medalla2B.png", "img/Medalla3B.png", "img/Medalla4B.png", "img/Medalla5B.png", "img/Medalla6B.png", "img/Medalla7B.png"],
         goal__month: "Marzo sin ninguna borrachera 🍸❌",
         goal__year: "Adquirir un activo grande (5k - 10k) 🤑",
@@ -83,7 +84,7 @@ const participants = [
         name: "Sanans",
         subtitle: "DISFRUTEMOS LA VIIIIDA LOS DOS",
         stats: { medallas: 0, premios: 0, semanales: 0, mensuales: 0, anuales: 0 },
-        icon: "img/iconos/icons8-me-58.png",
+        icon: "iconos/Famelico.jpeg",
         medals: ["img/Medalla1B.png", "img/Medalla2B.png", "img/Medalla3B.png", "img/Medalla4B.png", "img/Medalla5B.png", "img/Medalla6B.png", "img/Medalla7B.png"],
         goal__month: "140kg de haka 💪",
         goal__year: "Carnet de conducir 🚗",
@@ -179,15 +180,15 @@ function updateParticipantInfo(participant) {
 
 
 const participantsTable = [
-    { name: "Alberto", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "img/iconos/anciana.png" },
-    { name: "Arturitou", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "img/iconos/ancianos.png" },
-    { name: "Azkona", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "img/iconos/clasificacion.png" },
-    { name: "DP", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "img/iconos/enfermo.png" },
-    { name: "Dean", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "img/iconos/hombre (3).png" },
-    { name: "Freire", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "img/iconos/mujer.png" },
-    { name: "Maldo", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "img/iconos/personas-mayores.png" },
-    { name: "Marin", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "img/iconos/servicio-al-cliente.png" },
-    { name: "Sanans", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "img/iconos/icons8-me-58.png" }
+    { name: "Alberto", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "iconos/Famelico.jpeg" },
+    { name: "Arturitou", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Arturo 1.jpeg" },
+    { name: "Azkona", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Azko 1.jpeg" },
+    { name: "DP", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Guille 1.jpeg" },
+    { name: "Dean", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Dean 1.jpeg" },
+    { name: "Freire", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Frei 1 .jpeg" },
+    { name: "Maldo", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Maldo 1.jpeg" },
+    { name: "Marin", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Marin 1.jpeg" },
+    { name: "Sanans", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "iconos/Famelico.jpeg" }
 ];
 
 function renderTable() {
