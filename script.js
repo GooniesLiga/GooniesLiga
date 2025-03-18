@@ -181,14 +181,14 @@ function updateParticipantInfo(participant) {
 
 const participantsTable = [
     { name: "Alberto", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "iconos/Famelico.jpeg" },
-    { name: "Arturitou", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Arturo 1.jpeg" },
-    { name: "Azkona", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 3, icon: "iconos/Azko 1.jpeg" },
+    { name: "Arturitou", retosSemanales: 2, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 2, icon: "iconos/Arturo 1.jpeg" },
+    { name: "Azkona", retosSemanales: 2, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 4, icon: "iconos/Azko 1.jpeg" },
     { name: "DP", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Guille 1.jpeg" },
-    { name: "Dean", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Dean 1.jpeg" },
-    { name: "Freire", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Frei 1 .jpeg" },
+    { name: "Dean", retosSemanales: 2, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 2, icon: "iconos/Dean 1.jpeg" },
+    { name: "Freire", retosSemanales: 2, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 2, icon: "iconos/Frei 1 .jpeg" },
     { name: "Maldo", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Maldo 1.jpeg" },
-    { name: "Marin", retosSemanales: 1, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 1, icon: "iconos/Marin 1.jpeg" },
-    { name: "Sanans", retosSemanales: 0, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 0, icon: "iconos/Famelico.jpeg" }
+    { name: "Marin", retosSemanales: 2, retosMensuales: 0, retoAnual: 0, medallas: 0, premios: 0, puntos: 2, icon: "iconos/Marin 1.jpeg" },
+    { name: "Sanans", retosSemanales: 1, retosMensuales: 1, retoAnual: 0, medallas: 0, premios: 0, puntos: 6, icon: "iconos/Famelico.jpeg" }
 ];
 
 function renderTable() {
